@@ -3,6 +3,8 @@ const routes = require("./routes"); //usamos o "./" para indicar que é um arqui
 const cors = require("cors");
 const app = express();
 
+
+//Permite ou restringe as app front-end que poderão acessar a app back-end
 app.use(cors());
 
 //Habilita o formato JSON para as requisições
